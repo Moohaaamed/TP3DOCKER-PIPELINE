@@ -39,5 +39,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/tp3-pipeline:latest
-          
+          tags: mohaamed007/tp3-pipeline:latest
